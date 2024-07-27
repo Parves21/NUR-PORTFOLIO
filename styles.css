@@ -117,6 +117,13 @@ nav {
     }
 }
 
+.introduce-section-child-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 .introduce-section-child-2 img {
     height: 300px;
     width: 300px;
@@ -144,7 +151,45 @@ nav {
     }
 }
 
+#icon-image{
+    margin-top: 20px;
+}
 
+#icon-image img{
+    height: 25px;
+    width: 25px;
+    border: 2px solid gold;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: none;
+    margin-left: 10px;
+    
+}
+#icon-image img:hover{
+    box-shadow: 1px 1px 10px 3px #ffdd00;
+}
+
+/* clients-happy-experience */
+
+#clients-happy-experience{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#clients-happy-experience div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    color: #e8e8e8;
+}
+#clients-happy-experience div h2{
+    font-size: 50px;
+    color: #ffdd00;
+}
 
 
 
