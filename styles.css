@@ -91,7 +91,6 @@ nav {
 }
 
 .name-animation {
-    font-weight: bold;
     color: #ffdd00;
     background: -webkit-linear-gradient(#ffdd00, #e8e8e8);
     -webkit-background-clip: text;
@@ -124,6 +123,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
 .introduce-section-child-2 img {
     height: 300px;
     width: 300px;
@@ -151,11 +151,11 @@ nav {
     }
 }
 
-#icon-image{
+#icon-image {
     margin-top: 20px;
 }
 
-#icon-image img{
+#icon-image img {
     height: 25px;
     width: 25px;
     border: 2px solid gold;
@@ -163,22 +163,24 @@ nav {
     padding: 3px;
     box-shadow: none;
     margin-left: 10px;
-    
+
 }
-#icon-image img:hover{
+
+#icon-image img:hover {
     box-shadow: 1px 1px 10px 3px #ffdd00;
 }
 
 /* clients-happy-experience */
 
-#clients-happy-experience{
+#clients-happy-experience {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
 }
-#clients-happy-experience div{
+
+#clients-happy-experience div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,12 +188,74 @@ nav {
     font-size: 22px;
     color: #e8e8e8;
 }
-#clients-happy-experience div h2{
+
+#clients-happy-experience div h2 {
     font-size: 50px;
     color: #ffdd00;
 }
 
 
+/* services & What I Do Section */
+
+.services {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #37403d;
+    text-align: center;
+    margin: 20px 0 0 0;
+    opacity: 30%;
+}
+
+.what-i-do {
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    border-bottom: 2px solid #e8e8e8;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 80px;
+    margin: 0 550px;
+}
+
+/* service-type */
+#all-services-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px 50px;
+}
+
+.service-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ffe959;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.service-type:hover {
+    opacity: 100%;
+}
+
+.service-type img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.services-title {
+    margin: 0;
+    color: #e8e8e8;
+}
+
+.service-type div p {
+    color: #37403d;
+    text-align: justify;
+}
 
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
@@ -220,5 +284,71 @@ nav {
         justify-content: center;
         align-items: center;
         gap: 50px;
+    }
+
+    .name-animation {
+        font: 900;
+        font-size: xx-large;
+        margin: 0 50px;
+        text-align: center;
+    }
+
+    /* clients-happy-experience */
+
+    #clients-happy-experience {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* services & What I Do Section */
+
+    .services {
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: 80px;
+        color: #37403d;
+        text-align: center;
+        margin: 20px 0 0 0;
+        opacity: 30%;
+    }
+
+    .what-i-do {
+        height: 0x;
+        width: 100px;
+        border-bottom: 2px solid #e8e8e8;
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 65px;
+        left: 170px;
+        margin: 0;
+    }
+    .service-what-i-d0{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* service-type */
+    #all-services-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px 50px;
+    }
+
+    .service-type {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        border: 1px solid #ffe959;
+        border-radius: 10px;
+        opacity: 40%;
+    }
+
+    .service-type div {
+        text-align: center;
     }
 }
