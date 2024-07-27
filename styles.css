@@ -1,6 +1,6 @@
 * {
     font-family: "Signika Negative", sans-serif;
-    background-color: #0a2c2c;
+    background-color: #051f1f;
 }
 
 /* Custom Design */
@@ -105,7 +105,7 @@ nav {
     left: 0;
     height: 115%;
     width: 100%;
-    background-color: #0a2c2c;
+    background-color: #051f1f;
     border-left: 2px solid #e8e8e8;
     animation: typing 3s steps(15) infinite;
 }
