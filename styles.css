@@ -15,7 +15,6 @@
 }
 
 .custom-button:hover {
-    background-color: #039b9b;
     box-shadow: 1px 1px 10px 3px #ffdd00;
     color: #e8e8e8;
     transition-duration: .5s;
