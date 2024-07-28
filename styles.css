@@ -289,25 +289,168 @@ nav {
     box-shadow: 1px 1px 2px 3px #ffdd00;
 }
 
-.education-expericence-title{
+.education-expericence-title {
     color: #ffdd00;
     font-weight: 700;
     margin-top: 10px;
 }
 
-.education-experience-tag{
+.education-experience-tag {
     color: #e8e8e8;
     font-weight: 800;
     margin: 0;
 }
 
-.education-experience-information{
+.education-experience-information {
     color: #37403d;
     font-weight: 500;
     text-align: justify;
 }
 
+/* My Skills Section */
 
+.skills-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 300px;
+    margin: 0 100px;
+}
+
+.skill-title {
+    text-align: left;
+    font-weight: 900;
+    font-size: 22px;
+    color: #e8e8e8;
+    font-family: sans-serif;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    gap: 5px;
+}
+
+.skill-div-parcent {
+    color: #ffdd00;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.skill-image {
+    height: 10px;
+    width: 500px;
+}
+
+
+/* Client Reviews */
+
+#client-review-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.client-upper {
+    background-color: #37403d;
+    border: 1px solid #ffdd00;
+    padding: 5px;
+    height: 150px;
+    margin-bottom: 30px;
+    opacity: 50%;
+}
+.client-upper:hover {
+    opacity: 100%;
+}
+.client-upper img{
+    background-color: #37403d;
+    opacity: 30%;
+    position: relative;
+    bottom: 150px;
+}
+
+.client-upper p {
+    background-color: #37403d;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: justify;
+    color: #a5a5a5;
+}
+
+.client-review-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffdd00;
+    border-width: 0 2px 2px 0;
+    background: #37403d;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 55px;
+    left: 175px;
+}
+
+.client-review-down{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.client-review-down img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ffdd00;
+    padding: 5px;
+    border-radius: 50%;
+}
+.client-review-down img:hover{
+    box-shadow: 1px 1px 2px 3px #ffe959;
+}
+.client-review-down h4{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffdd00;
+    margin: 0;
+}
+.client-review-down p{
+    font-size: 15px;
+    font-weight: 900;
+    color: #a5a5a5;
+    margin: 0;
+}
+
+footer{
+    background-color: #252d2d;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 50px 0 0 0 ;
+    padding: 40px 100px 0;
+    align-items: first baseline;
+}
+footer div{
+    background-color: #252d2d;
+}
+footer div img{
+    background-color: #252d2d;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+}
+footer div h4{
+    background-color: #252d2d;
+    color: #ffdd00;
+    opacity: 60%;
+}
+footer div p{
+    background-color: #252d2d;
+    color: aliceblue;
+    opacity: 80%;
+    text-align: justify;
+}
 
 
 
