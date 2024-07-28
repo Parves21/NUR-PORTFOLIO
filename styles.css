@@ -348,7 +348,7 @@ nav {
 
 /* Client Reviews */
 
-#client-review-parent{
+#client-review-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -362,10 +362,12 @@ nav {
     margin-bottom: 30px;
     opacity: 50%;
 }
+
 .client-upper:hover {
     opacity: 100%;
 }
-.client-upper img{
+
+.client-upper img {
     background-color: #37403d;
     opacity: 30%;
     position: relative;
@@ -392,60 +394,69 @@ nav {
     left: 175px;
 }
 
-.client-review-down{
+.client-review-down {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.client-review-down img{
+.client-review-down img {
     height: 80px;
     width: 80px;
     border: 1px solid #ffdd00;
     padding: 5px;
     border-radius: 50%;
 }
-.client-review-down img:hover{
+
+.client-review-down img:hover {
     box-shadow: 1px 1px 2px 3px #ffe959;
 }
-.client-review-down h4{
+
+.client-review-down h4 {
     font-size: 22px;
     font-family: sans-serif;
     font-weight: 900;
     color: #ffdd00;
     margin: 0;
 }
-.client-review-down p{
+
+.client-review-down p {
     font-size: 15px;
     font-weight: 900;
     color: #a5a5a5;
     margin: 0;
 }
 
-footer{
+/* Footer Section */
+
+footer {
     background-color: #252d2d;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    margin: 50px 0 0 0 ;
+    margin: 50px 0 0 0;
     padding: 40px 100px 0;
     align-items: first baseline;
 }
-footer div{
+
+footer div {
     background-color: #252d2d;
 }
-footer div img{
+
+footer div img {
     background-color: #252d2d;
     border: 1px solid #e8e8e8;
     border-radius: 50%;
     padding: 5px;
     height: 30px;
 }
-footer div h4{
+
+footer div h4 {
     background-color: #252d2d;
     color: #ffdd00;
     opacity: 60%;
 }
-footer div p{
+
+footer div p {
     background-color: #252d2d;
     color: aliceblue;
     opacity: 80%;
@@ -555,6 +566,26 @@ footer div p{
         grid-template-columns: 1fr;
         gap: 50px;
         margin: 20px 50px;
+    }
+
+    /* Client Reviews */
+
+    #client-review-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Footer section */
+
+    footer {
+        background-color: #252d2d;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin: 50px 0 0 0;
+        padding: 40px 100px 0;
+        align-items: center;
     }
 
 
