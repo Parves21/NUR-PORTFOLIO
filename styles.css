@@ -211,11 +211,10 @@ nav {
     height: 20px;
     width: 150px;
     text-align: center;
-    border-bottom: 2px solid #e8e8e8;
-    padding-bottom: 10px;
     position: relative;
     bottom: 80px;
     margin: 0 550px;
+    background-color: transparent;
 }
 
 /* service-type */
@@ -256,6 +255,61 @@ nav {
     color: #37403d;
     text-align: justify;
 }
+
+/* my-education-experience */
+
+#Education-Experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 20px 100px;
+}
+
+.my-education-experience {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #e8e8e8;
+}
+
+.button-education-experience {
+    background-color: #37403d;
+    color: #e8e8e8;
+    font-weight: 800;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.button-education-experience:hover {
+    background-color: #37403d;
+    color: black;
+    box-shadow: 1px 1px 2px 3px #ffdd00;
+}
+
+.education-expericence-title{
+    color: #ffdd00;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.education-experience-tag{
+    color: #e8e8e8;
+    font-weight: 800;
+    margin: 0;
+}
+
+.education-experience-information{
+    color: #37403d;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+
+
 
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
@@ -317,14 +371,13 @@ nav {
     .what-i-do {
         height: 0x;
         width: 100px;
-        border-bottom: 2px solid #e8e8e8;
-        padding-bottom: 10px;
         position: relative;
         bottom: 65px;
         left: 170px;
         margin: 0;
     }
-    .service-what-i-d0{
+
+    .service-what-i-d0 {
         display: flex;
         flex-direction: column;
     }
@@ -351,4 +404,15 @@ nav {
     .service-type div {
         text-align: center;
     }
+
+    /* my-education-experience */
+
+    #Education-Experience {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        margin: 20px 50px;
+    }
+
+
 }
