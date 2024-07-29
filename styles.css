@@ -356,7 +356,7 @@ nav {
 
 .client-upper {
     background-color: #37403d;
-    border: 1px solid #ffdd00;
+    border: 1px solid #a18c01;
     padding: 5px;
     height: 150px;
     margin-bottom: 30px;
@@ -365,6 +365,7 @@ nav {
 
 .client-upper:hover {
     opacity: 100%;
+    border: 1px solid #ffdd00;
 }
 
 .client-upper img {
@@ -501,6 +502,14 @@ footer div p {
         text-align: center;
     }
 
+    .name-animation::after {
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        border-left: none;
+        animation: none;
+    }
+
     /* clients-happy-experience */
 
     #clients-happy-experience {
@@ -568,6 +577,32 @@ footer div p {
         margin: 20px 50px;
     }
 
+    /* My Skills Section */
+
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        gap: 0px;
+        margin: 0 20px;
+    }
+
+    .skill-title {
+        position: relative;
+        top: 65px;
+        right: 90px;
+        font-weight: 900;
+        font-size: 18px;
+        color: #e8e8e8;
+        font-family: sans-serif;
+    }
+
+    .skill-image {
+        height: 10px;
+        width: 350px;
+    }
+
     /* Client Reviews */
 
     #client-review-parent {
@@ -576,16 +611,26 @@ footer div p {
         gap: 30px;
     }
 
+
+    .client-review-box {
+        display: none;
+    }
+
     /* Footer section */
 
     footer {
+        text-align: center;
         background-color: #252d2d;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 30px;
         margin: 50px 0 0 0;
-        padding: 40px 100px 0;
+        padding: 10px 30px 0;
         align-items: center;
+    }
+
+    #footer-usefull-link {
+        display: none;
     }
 
 
