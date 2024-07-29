@@ -207,7 +207,7 @@ nav {
     font-size: 100px;
     color: #37403d;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 100px 0 0 0;
     opacity: 30%;
 }
 
@@ -349,6 +349,120 @@ nav {
     width: 500px;
 }
 
+/* contact-section-parent */
+
+#contact-section-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: left;
+    align-items: start;
+}
+
+form label {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ffdd00;
+}
+
+form input {
+    height: 30px;
+    width: 400px;
+    border: 1px solid #ffdd00;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form textarea {
+    border: 1px solid #ffdd00;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #a5a5a5;
+    padding: 10px;
+}
+
+#submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37403d;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#submit-button::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background-image: linear-gradient( #ffdd00, #ff02ff);
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#submit-button button {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    z-index: 2;
+    color: #ffdd00;
+    background-color: #051f1f;
+    border: none;
+    border-radius: 5px;
+    height: 47px;
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contact-right-side {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #a5a5a5;
+    text-align: center;
+}
+
+.contact-right-side span {
+    color: #a18c01;
+    font-family: sans-serif;
+}
+
+.contact-right-image{
+    border-radius: 10px;
+    background-color: transparent;
+    height: 300px;
+    width: 400px;
+}
 
 /* Client Reviews */
 
@@ -469,7 +583,8 @@ footer div p {
     opacity: 80%;
     text-align: justify;
 }
-footer div a{
+
+footer div a {
     background-color: #252d2d;
     color: aliceblue;
     opacity: 80%;
