@@ -441,6 +441,7 @@ footer {
 
 footer div {
     background-color: #252d2d;
+    text-align: center;
 }
 
 footer div img {
@@ -455,6 +456,7 @@ footer div h4 {
     background-color: #252d2d;
     color: #ffdd00;
     opacity: 60%;
+    text-align: center;
 }
 
 footer div p {
@@ -462,6 +464,13 @@ footer div p {
     color: aliceblue;
     opacity: 80%;
     text-align: justify;
+}
+footer div a{
+    background-color: #252d2d;
+    color: aliceblue;
+    opacity: 80%;
+    text-align: center;
+    text-decoration: none;
 }
 
 
