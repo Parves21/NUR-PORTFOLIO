@@ -13,6 +13,10 @@
     font-weight: 900;
     color: #ffdd00;
 }
+.custom-button a{
+    text-decoration: none;    
+    color: #ffdd00;
+}
 
 .custom-button:hover {
     box-shadow: 1px 1px 10px 3px #ffdd00;
@@ -353,6 +357,7 @@ nav {
 
 #contact-section-parent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
@@ -609,7 +614,7 @@ footer div a {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -745,6 +750,8 @@ footer div a {
         display: none;
     }
 
+
+
     /* Footer section */
 
     footer {
@@ -764,3 +771,6 @@ footer div a {
 
 
 }
+
+
+
