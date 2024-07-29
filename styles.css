@@ -26,6 +26,10 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navber-logo img {
@@ -64,7 +68,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin: 50px 50px 30px;
+    margin: 120px 50px 30px;
 }
 
 .hi-nur-islam {
@@ -552,6 +556,7 @@ footer div a{
     .service-what-i-d0 {
         display: flex;
         flex-direction: column;
+        margin-top: 100px;
     }
 
     /* service-type */
