@@ -68,11 +68,11 @@ nav {
 
 #introduce-section {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     justify-content: center;
     align-items: center;
     gap: 100px;
-    margin: 120px 50px 30px;
+    margin: 150px 80px 30px;
 }
 
 .hi-nur-islam {
@@ -376,7 +376,7 @@ form label {
 
 form input {
     height: 30px;
-    width: 400px;
+    width: 350px;
     border: 1px solid #ffdd00;
     border-radius: 10px;
     font-size: 18px;
@@ -391,6 +391,7 @@ form textarea {
     font-size: 18px;
     color: #a5a5a5;
     padding: 10px;
+    
 }
 
 #submit-button {
@@ -621,6 +622,8 @@ footer div a {
         justify-content: center;
         align-items: center;
         gap: 50px;
+        margin: 180px 10px 30px;
+        
     }
 
     .name-animation {
