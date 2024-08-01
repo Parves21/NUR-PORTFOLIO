@@ -52,7 +52,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -273,12 +273,24 @@ nav {
     margin: 20px 100px;
 }
 
+.eduction-experience-horizontal{
+    border-bottom: 0.5px solid #e8e8e8;
+    opacity: 80%;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+
 .my-education-experience {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
     font-size: 32px;
     margin-bottom: 50px;
     color: #e8e8e8;
+}
+
+.education-expericence-title{
+    color: #ffdd00;
+    opacity: 80%;
 }
 
 .button-education-experience {
@@ -323,7 +335,7 @@ nav {
 .skill-title {
     text-align: left;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 16px;
     color: #e8e8e8;
     font-family: sans-serif;
 }
@@ -610,7 +622,7 @@ footer div a {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
