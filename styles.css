@@ -239,19 +239,22 @@ nav {
     align-items: center;
     gap: 15px;
     padding: 10px;
-    border: 1px solid #ffe959;
+    border: 1px solid #fff8ca;
     border-radius: 10px;
     opacity: 50%;
 }
 
 .service-type:hover {
     opacity: 100%;
+    border: 1px solid #ffdd00;
+    border-radius: 15px;
 }
 
 .service-type img {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 10px;
+    opacity: 70%;
 }
 
 .services-title {
