@@ -429,7 +429,8 @@ form textarea {
     position: absolute;
     width: 150px;
     height: 140%;
-    background-image: linear-gradient( #ffdd00, #ff02ff);
+    background-image: conic-gradient(red, yellow, #8d01ff, blue, #ff00c3);
+    /* background-image: linear-gradient( #ffdd00, #ff02ff); */
     animation: rotate 5s linear infinite;
 }
 
